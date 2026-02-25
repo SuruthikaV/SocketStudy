@@ -76,7 +76,7 @@ s = socket.socket()
 print ("Socket successfully created")
 port = 12345                
 s.bind(('', port))         
-print ("socket binded to %s" %(port)) 
+print (f"socket binded to {port}") 
 s.listen(5)     
 print ("socket is listening")            
 while True: 
